@@ -60,22 +60,9 @@ const ProfileScreen = () => {
                   {name}
                 </Title>
                 <Caption style={[styles.caption,{textAlign:'center'}]}>{email}</Caption>
+                <Caption style={[styles.caption,{textAlign:'center'}]}>{phone}</Caption>
+                <Caption style={[styles.caption,{textAlign:'center'}]}>{address}</Caption>
               </View>
-            </View>
-          </View>
-
-          <View style={styles.userInfoSection}>
-            <View style={styles.row}>
-              <Text style={{ color: "#777777", marginRight: 8 }}>Email:</Text>
-              <Text style={{ color: "#777777" }}>{email}</Text>
-            </View>
-            <View style={styles.row}>
-              <Text style={{ color: "#777777", marginRight: 8 }}>Phone:</Text>
-              <Text style={{ color: "#777777" }}>{phone}</Text>
-            </View>
-            <View style={styles.row}>
-              <Text style={{ color: "#777777", marginRight: 8 }}>Address:</Text>
-              <Text style={{ color: "#777777" }}>{address}</Text>
             </View>
           </View>
 
